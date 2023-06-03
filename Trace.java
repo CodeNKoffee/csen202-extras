@@ -6,7 +6,7 @@ public class Trace {
     System.out.println("Enter the name of your matrix: ");
     String matrixName = input.nextLine();
     input.close();
-    int[][] arr = {{1, 2}, {1, 2}};
+    int[][] arr = {{10, 2}, {1, 19}};
     tr(arr, matrixName);
   }
 
